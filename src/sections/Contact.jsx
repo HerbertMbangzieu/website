@@ -111,7 +111,6 @@ const Contact = () => {
                 id=""
                 placeholder="Subject line ..."
                 className="w-full rounded px-2 py-1"
-                // value={subjectLine || ""}
                 onChange={(e) => {
                   setSubjectline(e.target.value);
                 }}
