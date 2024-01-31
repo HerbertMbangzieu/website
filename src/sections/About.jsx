@@ -91,15 +91,10 @@ const About = () => {
         </div>
         <div className="lg:flex w-full my-4">
           <div className="lg:w-2/5 mx-2 text-lg text-left lg:text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-            autem nisi quas! Ducimus qui voluptatem dolore atque. Placeat,
-            reiciendis nobis voluptas doloremque atque quia repellat dicta
-            quisquam nemo temporibus beatae facere delectus asperiores doloribus
-            amet minus necessitatibus cum animi nostrum architecto? Accusamus
-            earum natus dolor ipsa ex aliquam pariatur, officiis animi! Vel,
-            illo autem consequuntur incidunt expedita, nihil commodi corrupti
-            perferendis non fuga itaque. Ullam eum autem maxime placeat minima,
-            nisi porro architecto itaque dolorum perferendis praesentium dolores
+            I'm passionate about programming, having spent 12 years teaching
+            computer science in secondary schools and universities, and 2 years
+            as a full-stack developer. I'm open to learning new things. I'm open
+            to working on site or remotely and I'm also very good at teamwork.
           </div>
 
           <div className="lg:w-3/5 md:text-md">
@@ -109,7 +104,7 @@ const About = () => {
                   <div
                     className={
                       active === index
-                        ? "text-center text-red-400 underline underline-offset-[10px] font-semibold scale-110 transition ease-in-out duration-300"
+                        ? "text-center text-lime-400 underline underline-offset-[10px] font-semibold scale-110 transition ease-in-out duration-300"
                         : "text-center transition ease-in-out duration-300"
                     }
                     onClick={() => setActive(index)}

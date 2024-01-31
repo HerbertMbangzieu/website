@@ -11,8 +11,8 @@ const HomeImage = () => {
           </div>
           <p className="text-lg md:text-2xl font-semibold w-full mt-4">
             {" "}
-            <span className="text-red-400">Herbert</span>{" "}
-            <span className="text-red-400 ml-1">Mbangzieu</span>
+            <span className="text-lime-400">Herbert</span>{" "}
+            <span className="text-lime-400 ml-1">Mbangzieu</span>
           </p>
         </div>
       </div>

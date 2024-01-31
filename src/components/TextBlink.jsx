@@ -27,7 +27,7 @@ const TextBlink = () => {
       <div className="w-full h-auto items-center text-3xl md:text-5xl p-4 bg-gradient-to-tr from-[#001] to-[#003] shadow-inner shadow-slate-800 mt-1 rounded-lg flex font-quicksand text-white">
         <div>
           <p> I am a</p>
-          <p className="text-red-400 mt-3">{blink}</p>
+          <p className="text-lime-400 mt-3">{blink}</p>
         </div>
       </div>
     </>

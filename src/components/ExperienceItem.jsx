@@ -3,8 +3,8 @@ import React from "react";
 const ExperienceItem = ({ item }) => {
   return (
     <>
-      <div className="w-full font-quicksand my-4 pb-2 border-b-[1px] border-b-red-400">
-        <div className="w-full lg:grid lg:grid-cols-2 text-red-400 font-semibold">
+      <div className="w-full font-quicksand my-4 pb-2 border-b-[1px] border-b-lime-400">
+        <div className="w-full lg:grid lg:grid-cols-2 text-lime-400 font-semibold">
           <p>
             {" "}
             {item?.position} {item?.degree}{" "}
@@ -13,7 +13,7 @@ const ExperienceItem = ({ item }) => {
             {item?.start} - {item?.end} {item?.year}
           </p>
         </div>
-        <p className="text-red-400">
+        <p className="text-lime-400">
           {" "}
           {item?.company} {item?.school}{" "}
         </p>

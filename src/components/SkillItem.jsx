@@ -10,7 +10,7 @@ const SkillItem = ({ item }) => {
         </div>
         <div className="mt-2 md:mt-3 w-full h-3 rounded-lg bg-lime-900">
           <div
-            className={`h-3  rounded-lg bg-red-400 ${
+            className={`h-3  rounded-lg bg-lime-400 ${
               "w-[" + item.percent + "]"
             }`}
           ></div>
