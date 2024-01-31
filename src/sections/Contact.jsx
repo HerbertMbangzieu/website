@@ -30,23 +30,23 @@ const Contact = () => {
         <div className="lg:grid lg:grid-cols-2 lg:gap-2">
           <div>
             <div className="px-2 py-6 lg:py-8">
-              <div className="flex text-xl md:text-2xl ">
+              <div className="flex text-md ">
                 <FaEnvelope />{" "}
                 <p className="px-10 -mt-1">herbertmbangzieu@gmail.com</p>
               </div>
 
-              <div className="flex text-xl md:text-2xl py-4 lg:py-6">
+              <div className="flex  py-4 lg:py-6">
                 <MdLocationPin />{" "}
                 <p className="px-10 -mt-1">
-                  16 softwind ct, Owings Mills, MD, 21117
+                  16 softwinds ct, Owings Mills, MD, 21117
                 </p>
               </div>
 
-              <div className="flex text-xl md:text-2xl py-4">
+              <div className="flex  py-4">
                 <FaPhone /> <p className="px-10 -mt-1">+1 (443) 285 2804</p>
               </div>
 
-              <div className="flex text-xl md:text-2xl py-4">
+              <div className="flex  py-4">
                 <FaFirefoxBrowser />{" "}
                 <p className="px-10 -mt-1">
                   <a

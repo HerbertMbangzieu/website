@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className="w-full flex justify-center pb-5 font-quicksand text-lg">
-        <div className="px-2 md:px-[100px]">
+        <div className="px-4 md:px-[100px]">
           <div className="static mb-2 bg-gradient-to-tr from-[#001] to-[#003]">
           <Menu />
           </div>

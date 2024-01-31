@@ -89,7 +89,7 @@ const About = () => {
         <div className="text-xl md:text-4xl font-semibold text-center py-4 mb-3">
           About Me
         </div>
-        <div className="lg:flex w-full my-4">
+        <div className="lg:flex w-full my-4 ">
           <div className="lg:w-2/5 mx-2 text-lg text-left lg:text-justify">
             I'm passionate about programming, having spent 12 years teaching
             computer science in secondary schools and universities, and 2 years
