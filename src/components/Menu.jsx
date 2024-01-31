@@ -39,7 +39,7 @@ const Menu = () => {
               My Works
             </a>
             <a
-              href="#home"
+              href="#contact"
               className="mx-2 lg:mx-6 font-semibold hover:text-red-400"
             >
               Contact
@@ -81,7 +81,7 @@ const Menu = () => {
             <a href="#works">My Works</a>
           </li>
           <li className="my-4 hover:text-red-400">
-            <a href="#home">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

@@ -5,17 +5,21 @@ import Home from "./sections/Home";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Works from "./sections/Works";
+import Contact from "./sections/Contact";
 
 function App() {
   return (
     <>
       <div className="w-full flex justify-center pb-5 font-quicksand">
-        <div className="p-2 md:px-[200px]">
+        <div className="px-2 md:px-[200px]">
+          <div className="static mb-2 bg-gradient-to-tr from-[#001] to-[#003]">
           <Menu />
+          </div>
           <Home />
           <About />
           <Skills />
-          <Works/>
+          {/* <Works/> */}
+          <Contact/>
         </div>
       </div>
     </>
