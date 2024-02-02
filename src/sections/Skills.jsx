@@ -16,6 +16,10 @@ const Skills = () => {
     { skill: "SQL", percent: "60%" },
     { skill: "MySQL", percent: "56%" },
     { skill: "Git /Github", percent: "55%" },
+    { skill: "Office Word", percent: "60%" },
+    { skill: "Office Excel", percent: "57%" },
+    { skill: "Office Access", percent: "65%" },
+    { skill: "Office Powerpoint", percent: "55%" },
   ]);
   return (
     <>

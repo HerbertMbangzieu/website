@@ -4,8 +4,8 @@ import ExperienceItem from "../components/ExperienceItem";
 const About = () => {
   const [active, setActive] = useState(0);
   const [tabs, setTabs] = useState([
-    "Developer experience",
-    "Teacher experience",
+    "Developer",
+    "Teacher",
     "Education",
   ]);
 
@@ -98,7 +98,7 @@ const About = () => {
           </div>
 
           <div className="lg:w-3/5 md:text-md">
-            <div className="hidden lg:grid lg:grid-cols-3 cursor-pointer">
+            <div className="grid grid-cols-3 cursor-pointer mt-3 lg:mt-0 border-t-2 lg:border-t-0 pt-4 lg:pt-0 border-t-lime-400">
               {tabs.map((tab, index) => (
                 <div key={index}>
                   <div
