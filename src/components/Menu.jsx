@@ -27,7 +27,7 @@ const Menu = () => {
               About me
             </a>
             <a
-              href="#home"
+              href="#skills"
               className="mx-2 lg:mx-4 font-semibold hover:text-lime-400"
             >
               Skills
