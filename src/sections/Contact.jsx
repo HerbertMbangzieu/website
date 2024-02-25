@@ -65,40 +65,35 @@ const Contact = () => {
                 target="_blank"
                 className="text-center text-4xl text-blue-600"
               >
-                {" "}
-                <FaFacebookSquare />{" "}
+                <FaFacebookSquare />
               </a>
               <a
                 href="https://twitter.com/hlarym1/"
                 target="_blank"
                 className="text-center text-4xl text-blue-600"
               >
-                {" "}
-                <FaTwitter />{" "}
+                <FaTwitter />
               </a>
               <a
                 href="https://instagram.com/herbertmbangzieu/"
                 target="_blank"
                 className="text-center text-4xl text-purple-900"
               >
-                {" "}
-                <FaInstagram />{" "}
+                <FaInstagram />
               </a>
               <a
                 href="https://www.linkedin.com/in/herbert-mbangzieu-ab4829221/"
                 target="_blank"
                 className="text-center text-4xl text-blue-600"
               >
-                {" "}
-                <FaLinkedin />{" "}
+                <FaLinkedin />
               </a>
               <a
                 href="https://github.com/herbertmbangzieu/"
                 target="_blank"
                 className="text-center text-4xl"
               >
-                {" "}
-                <FaGithub />{" "}
+                <FaGithub />
               </a>
             </div>
           </div>
